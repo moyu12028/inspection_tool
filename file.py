@@ -1,12 +1,9 @@
 import os
-import pyautogui
-import time
+import subprocess
 
+    os.startfile("taskmgr")
 def moyu():
-    os.system("powershell -Command taskmgr")
-    time.sleep(1)
-    pyautogui.keyDown("win")
-    time.sleep(0.5)
-    pyautogui.press("right")
-    time.sleep(1)
-    pyautogui.keyUp("win")
+    os.startfile("C:/Program Files/HWiNFO64/HWiNFO64.EXE")
+    #subprocess.Popen("taskmgr",shell=True)
+    print("aaa")
+
